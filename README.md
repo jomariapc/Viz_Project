@@ -82,7 +82,7 @@ Initially the customer needs order information (orders), with "conversion funnel
 ### **CHANNEL**
 
 <p align="center">
-  <img src="img/channel.png">
+  <img src="img/channels.png">
 </p>
 
 As a next step, the customer needs to evaluate the information for each of the channels, so that he can see at a glance, how each one works.
