@@ -49,75 +49,84 @@ Therefore, in this project we have created a scorecard with the following KPIs a
 
 Initially the customer needs order information (orders), with "conversion funnel" KPIs at the top of the list.
 
-#### Filters:
-    ** 1. Date ** 
-    ** 2. Order status: **
-        ACCEPTED
-        CANCELED
-        DELIVERED
-        NEW
-    ** 3. Software:**
-        Deliverect
-        Otter
+#### *__FILTERS:__*
+**1. Date** 
 
-#### KPIs
-    Total orders
-    Total revenue from orders
-    Total cost applied to orders
-    Percentage of costs over revenues (calculated field)
+**2. Order status:**
+- ACCEPTED
+- CANCELED
+- DELIVERED
+- NEW
 
-#### Charts
+**3. Software:**
+- Deliverect
+- Otter
 
-    ** Order details information **
-        Date (calculated column without time)
-        Location from which the order was placed
-        Order status 
-        Total paid by customer
-        Associated costs
+####  *__KPIs:__*
+1. Total orders
+2. Total revenue from orders
+3. Total cost applied to orders
+4. Percentage of costs over revenues (calculated field)
 
-    ** Line chart **
-        Evolution of the order quantity over time
+#### *__CHARTS:__*
+
+**1. Order details information**  
+- Date (calculated column without time)
+- Location from which the order was placed
+- Order status 
+- Total paid by customer
+- Associated costs
+
+**2. Line chart**
+- Evolution of the order quantity over time
+
 
 
 ### **CHANNEL**
 
 <p align="center">
-  <img src="img/channel.png">
+  <img src="img/channels.png">
 </p>
 
 As a next step, the customer needs to evaluate the information for each of the channels, so that he can see at a glance, how each one works.
 
-#### Filters:
-    ** 1. Date ** 
-    ** 2. Order status: **
-        ACCEPTED
-        CANCELED
-        DELIVERED
-        NEW
-    ** 3. Channel:**
-        Gloria Foods
-        Glovo
-        Just Eat
-        Ubereats
+#### *__FILTERS:__*
+**1. Date** 
 
-#### KPIs
-    Total orders
-    Total revenue from orders
-    Total cost applied to orders
-    Percentage of costs over revenues (calculated field)
-
-#### Charts
-
-    ** Line chart **
-        Evolution of orders per channel. In this graph, the customer can see which of them performs best at a glance.
+**2. Order status:**
+- ACCEPTED
+- CANCELED
+- DELIVERED
+- NEW
 
 
+**3. Channel:**
+- Gloria Foods
+- Glovo
+- Just Eat
+- Ubereats
 
-IMPORTANT: the data is not updated in real time, so the values will not be as revealing of order behavior and delivery channels.
 
-#### *** Next steps ***
+####  *__KPIs:__*
+1. Total orders
+2. Total revenue from orders
+3. Total cost applied to orders
+4. Percentage of costs over revenues (calculated field)
 
-1. Integration through API of the other systems used by the company:
+#### *__CHARTS:__*
+
+  **2. Line chart**
+  
+  Evolution of orders per channel. In this graph, the customer can see which of them performs best at a glance.
+
+
+
+*_IMPORTANT:_* the data is not updated in real time, so the values will not be as revealing of order behavior and delivery channels.
+
+
+#### **NEXT STEPS **
+
+Integration through API of the other systems used by the company:
 
 - Gloria foods – Restaurant order system
 - Tipsi – TPV system to manage orders
